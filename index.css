@@ -12,7 +12,7 @@ h1{
     font-weight: bold;
 }
 
-.box{
+#comentario{
  
     background-color: #444059;
     font-family: 'Inter', sans-serif;
@@ -25,7 +25,7 @@ h1{
     margin-bottom: 10px;
 }
 
-.btn{
+#btn{
     width: 317px;
     height: 61px;
     align-items: center;
