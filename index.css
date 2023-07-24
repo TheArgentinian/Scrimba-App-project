@@ -61,3 +61,11 @@ font-weight: 700;
 .comentario{
     margin-bottom: 10px;
 }
+
+#comment{
+    border: 1px solid white;
+    width: 317px;
+    height: 72px;
+    font-family: inter;
+    background-color: white;
+}
