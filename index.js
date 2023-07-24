@@ -18,5 +18,32 @@ addButtonEl.addEventListener("click", function(){
         
         push(commentsInDB, inputValue) 
 
-        commentEl.innerHTML += `<li>${inputValue}</li>`
+        inputFieldEl.value = ""
+
+        commentEl.innerHTML += `${inputValue}`
 })
+
+/* testing returnDB code 
+
+onValue(commentsInDB, function(snapshot) {
+        let commentsArray = Object.values(snapshot.val())
+        
+        clearCommentsListEl()
+        
+        for (let i = 0; i < commentsArray.length; i++) {
+            let currentComment = commentsArray[i]
+            
+            appendCommentToCommentsListEl(currentComment)
+        }
+    })
+
+    function clearCommentsListEl() {
+        booksEl.innerHTML = ""
+    }
+    
+    function appendCommentToCommentsListEl(commentValue) {
+        commentEl.innerHTML += `<li>${commentValue}</li>`
+    }
+
+    */
+
